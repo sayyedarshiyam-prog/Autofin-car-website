@@ -2227,9 +2227,9 @@ def admin_logout():
 # START APPLICATION
 # ============================================================
 
-if __name__ == "__main__":
+init_db()
 
-    init_db()
+if __name__ == "__main__":
 
     print("=" * 55)
     print("        AUTOFIN CAR DEALERSHIP PLATFORM")
